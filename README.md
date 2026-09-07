@@ -133,7 +133,7 @@ Daily preprocessing: 1%–99% cross-sectional winsorization followed by z-scorin
 Signal after close on day \(t\), execute at next open:
 
 \(
-R^{(5)}_{i,t}=\frac{P^{adj,open}_{i,t+6}}{P^{adj,open}_{i,t+1}}-1.
+R^{(5)}_{i,t}={P^{adj,open}_{i,t+6}} / {P^{adj,open}_{i,t+1}}-1.
 \)
 
 ## Executable Backtest Rules
