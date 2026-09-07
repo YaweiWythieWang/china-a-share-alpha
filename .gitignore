@@ -1,0 +1,61 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+credentials.*
+secrets.*
+*token*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw / large data
+data/raw/
+data/interim/
+data/processed/
+data/cache/
+data/full_history/
+data/downloads/
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.zip
+
+# Generated local reports
+data/single_factor_reports/
+data/linear_model_reports/
+data/xgb_model_reports/
+data/backtest_reports/
+data/robustness_reports/
+data/final_package/
+
+# Logs / temp
+*.log
+*.tmp
+~$*
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+*.xdv

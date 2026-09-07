@@ -1,0 +1,12 @@
+﻿category,metric,specification,value,unit,secondary_metric,secondary_value
+Single factor,Strongest OOS RankIC,range20,-0.0810623276467986,correlation,HAC t,-8.610571965445619
+Linear model,Ridge OOS RankIC,Monthly expanding Ridge,0.0842270527996938,correlation,HAC t,12.784361367983331
+Nonlinear model,XGBoost OOS RankIC,Annual expanding XGBoost,0.0610117586143026,correlation,Q5-Universe bps/5d,24.94235939621715
+Executable backtest,CAGR @ 5 bps,XGB_TOP20,10.43265421002443,%,Sharpe,0.4731890862427209
+Executable backtest,CAGR @ 5 bps,RIDGE_TOP20,7.03691043108003,%,Sharpe,0.3938415352064938
+Executable backtest,CAGR @ 5 bps,UNIVERSE_EW,3.6424611271592897,%,Sharpe,0.2688472845150981
+Liquidity robustness,CAGR @ 5 bps,XGB_TOP20 / TOP1000,8.89398018929044,%,Sharpe,0.4281971487730097
+Horizon robustness,Top20-Universe @ 1d,Frozen XGB score,9.110176451970954,bps,HAC t,2.9607079066307453
+Horizon robustness,Top20-Universe @ 5d,Frozen XGB score,23.34494425227266,bps,HAC t,3.837632754321104
+Horizon robustness,Top20-Universe @ 10d,Frozen XGB score,34.508334618682895,bps,HAC t,3.896056456703709
+Horizon robustness,Top20-Universe @ 20d,Frozen XGB score,46.48911606701749,bps,HAC t,3.5536247867663837
